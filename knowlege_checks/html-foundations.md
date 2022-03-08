@@ -62,11 +62,34 @@ They are siblings
 
 
 ## What HTML tag is used to create an ordered list?
-
+`<ol>`
 
 ## What HTML tag is used to create an unordered list?
-
+`<ul>`
 
 ## What HTML tag is used to create list items within both unordered and ordered lists?
+`<li>`
 
+## What element is used to create a link?
+`<a></a>`
 
+## What is an attribute?
+they are put in the tags to give additional info to the element
+
+## What attribute tells links where to go to?
+href `<a href="https://www.theodinproject.com/about">click me</a>`
+
+## What is the difference between an absolute and relative link?
+Absolute paths go to a completely different domain, where as relative paths assume the page is in the same directory and does not need a protocol identifier
+
+## Which element is used to display an image?
+`<img>`
+
+## What two attributes do images always need to have?
+src and alt
+
+## How do you access a parent directory in a filepath?
+using `..`, one dot says this directory, two dots says this directories parents
+
+## What are the four main image formats that you can use for images on the web?
+png, jpg, gif, svg
