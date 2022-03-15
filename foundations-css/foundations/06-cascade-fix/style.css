@@ -1,0 +1,36 @@
+body {
+  font-family: "Verdana", "DejaVu Sans", "sans-serif";
+}
+
+.para,
+.small-para {
+  font-size: 22px;
+}
+
+.small-para {
+  font-size: 14px;
+}
+
+.para {
+  color: hsl(0, 100%, 50%);
+}
+
+.confirm {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+} 
+
+.button {
+  font-size: 20px;
+}
+
+div .child {
+  color: red;
+  font-size: 14px;
+}
+
+.text {
+  color: green;
+  font-size: 22px;
+}

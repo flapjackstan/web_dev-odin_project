@@ -1,0 +1,15 @@
+body {
+    font-family: "Arial", "DejaVu Sans", "sans-serif";
+}
+
+.image {
+    width: auto;
+    height: 500px;
+}
+
+.image:hover {
+    /* transform: scaleX(-1); */
+    height: 800px;
+  }
+  
+  
