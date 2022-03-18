@@ -44,3 +44,12 @@ It selects elements that meet the criteria for selection based on whether or not
 ## Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?
 
 The class selector would take precedence
+
+## How do you select a specific element on your page with your browser’s developer tools?
+Right click and select inspect. This brings up the selection in the elements in dev tools
+
+## What does a strikethrough in a CSS element mean in your browser’s developer tools?
+It means it is over ridden by some other css rule
+
+## How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?
+You can add an inline style by adding it into the `element.style` section. Or you can add in a new style rule and apply it. Or you can add a new class in the `.cls` section.
