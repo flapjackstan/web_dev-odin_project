@@ -1,0 +1,3 @@
+[submodule "web_dev-odin_project.wiki"]
+	path = web_dev-odin_project.wiki
+	url = https://github.com/flapjackstan/web_dev-odin_project.wiki.git
