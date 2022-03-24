@@ -94,3 +94,23 @@ Padding
 
 ## Would you use margin or padding if you wanted two elements to overlap each other?
 Margin
+
+## What is the difference between a block element and an inline element?
+Block elements stack on top of each other and expand to the max amount of the screen and break at new lines, inline ones only take up the space it needs. 
+
+Examples of inline elements are `<span>` and `<a>` tags. `<divs>` and `<p>` are block tags
+
+## What is the difference between an inline element and an inline-block element?
+Inline elements dont have width and height properties and can overlap other pieces of the element it is embedded in, whereas inline-block elements do have width and height properties and can be styled to not overlap the elements they are embedded in 
+
+## Is an h1 block or inline?
+Block
+
+## Is button block or inline?
+Inline
+
+## Is div block or inline?
+Block
+
+## Is span block or inline?
+Inline
