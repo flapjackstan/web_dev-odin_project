@@ -5,3 +5,7 @@ I've been getting more and more into web development and am doing the Odin Proje
 # Foundational HTML
 
 I'm very pleased with how much I learned about http and glad I spent more time to learn more about how the internet works. In addition to learning about http through the odin project, I also explored using the python requests library that uses http and used it to connect to the airtable api. It helped solidify what I learned and how its used to communicate data accross the web. Aside from that I also liked making the recipes page.
+
+# Foundaional CSS
+
+I had a decent amount of knowledge on how to use the chrome dev tools that I picked up while learning how to webscrape using selenium, but I did pickup more on how to mess around with moving elements around with dev tools. It reminded me of how to move stuff around in powerpoint. Another tool I picked up from this module that I hadnt used before was the lighthouse tool to score webpages on different things like speed and accessibility. I also got a good understanding of the box model and feel comfortable with it. The last margin and padding exercise was the hardest exercise so far, but Im glad i was able to figure it out for the most part. 
