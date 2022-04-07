@@ -3,6 +3,18 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+
+  /* turns on flex */
+  display: flex;
+
+  /* default is row */
+  flex-direction: row;
+
+  /* centers accross main axis */
+  justify-content: center;
+
+  /* centers accross secondary axis */
+  align-items: center;
 }
 
 .box {
