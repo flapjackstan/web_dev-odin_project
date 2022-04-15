@@ -5,6 +5,22 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  display: flex;
+  flex-direction: column; 
+}
+.header, .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -25,3 +41,9 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+li {
+  list-style: none;
+}
+
+a:link { text-decoration: none; }
