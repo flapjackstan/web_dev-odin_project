@@ -1,4 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: "Arial", "DejaVu Sans", "sans-serif";
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
+
+.header {
+    flex: 0 1 1;
+
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-links, .right-links {
+    flex: 0 1 1;
+
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+  
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+li {
+    list-style: none;
+}
+  
+a:link { text-decoration: none; }
+a {color: #666;}
+
   
