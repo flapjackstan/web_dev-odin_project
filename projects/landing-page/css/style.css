@@ -36,6 +36,16 @@ li {
     list-style: none;
 }
 
+.image {
+    height:200px
+}
+
+img {
+    width: auto; 
+    max-height: 100%; 
+}
+   
+
 .footer {
     flex: 0 1 1;
 
