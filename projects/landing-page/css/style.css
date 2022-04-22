@@ -82,11 +82,58 @@ button {
     color: #F9FAF8;
 }
 
-.chunk-1-right img {
+.chunk-1 img {
+    width: auto; 
+    height:600px;
+    max-height: 100%; 
+} 
+
+.chunk-2 img {
+    border: 2px solid #555;
+    border-radius: 10%;
     width: auto; 
     height:200px;
     max-height: 100%; 
 } 
+
+.chunk-2 {
+    flex: 0 1 1;
+
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.chunk-2 h1 {
+    flex: 0 1 1;
+
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+
+    font-weight: bold;
+    font-size: 36px;
+    color: hsl(162, 28%, 17%);
+}
+
+.portfolio-container {
+    flex: 0 1 1;
+
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+    justify-content: space-evenly;
+}
 
 .footer {
     flex: 0 1 1;
