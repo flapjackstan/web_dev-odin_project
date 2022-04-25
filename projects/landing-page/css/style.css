@@ -161,6 +161,82 @@ button {
     color: #1F2937
 }
 
+.chunk-4 {
+    flex: 0 1 1;
+
+    margin: 0px;
+    border: 0px;
+    padding: 132px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    text-align: center;
+}
+
+.chunk-4-container {
+    flex: 0 1 1;
+
+    margin: 0px;
+    border: 0px;
+    padding: 32px;
+
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+    gap: 150px;
+    background-color: hsl(159deg 25% 80%);
+    border-radius: 25px;
+}
+
+.chunk-4-left {
+    flex: 0 1 1;
+
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    justify-content: center;
+
+}
+
+.chunk-4-left p {
+    flex: 0 1 1;
+
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.chunk-4-right {
+    flex: 0 1 1;
+
+    margin: 0px;
+    border: 0px;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    text-align: center;
+    justify-content: center;
+    gap: 15px
+}
+
+.chunk-4-right p {
+    flex: 0 1 1;
+
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
 
 .footer {
     flex: 0 1 1;
