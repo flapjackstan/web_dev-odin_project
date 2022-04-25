@@ -135,6 +135,33 @@ button {
     justify-content: space-evenly;
 }
 
+.chunk-3 {
+    flex: 0 1 1;
+
+    margin: 0px;
+    border: 0px;
+    padding: 132px;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    flex: 0 1 1;
+
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+
+    font-size: 36px;
+
+    color: #1F2937
+}
+
+
 .footer {
     flex: 0 1 1;
 
