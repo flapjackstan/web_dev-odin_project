@@ -44,9 +44,19 @@ let computerInput
 let outcome
 
 for(let rounds = 0; rounds < 5; rounds++) {
-    userInput =  askUserForInput();
-    computerInput = generateRandomComputerInput();
-    outcome = playRound(userInput, computerInput);
+
+    let tieFlag = true;
+    while(tieFlag) {
+        userInput =  askUserForInput();
+        computerInput = generateRandomComputerInput();
+        outcome = playRound(userInput, computerInput);
+
+        if (outcome === "It's a tie!") {
+            tieFlag = true;
+        } else {
+            tieFlag = false;
+        }
+    }
 
     console.log("your choice",userInput);
     console.log("computer choice",computerInput);
